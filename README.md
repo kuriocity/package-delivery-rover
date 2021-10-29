@@ -9,12 +9,6 @@ Here are a few outcomes which are successfully implemented
 - GPS module and Google Maps Api helps to find the trajectory.
 - Security Mechanism ensures the package delivery only to the client.
 
-## Flow Chart
-
-#### This is the complete flow of how a user would interact with the rover
-
-![Flow Chart](/Photos/flowchart.jpg)
-
 ## Photos of Robot
 
 #### Rocker Bogie Design in Action
@@ -24,6 +18,16 @@ Here are a few outcomes which are successfully implemented
 #### Top View of Rover
 
 ![Top View](/Photos/Rocker_Bogie_Top_View.jpg)
+
+## High Level Design
+
+![High Level Design](/Photos/High_Level_Design.jpg)
+## Flow Chart
+
+#### This is the complete flow of how a user would interact with the rover
+
+![Flow Chart](/Photos/flowchart.jpg)
+
 
 ## Idea (Concept)
 
@@ -45,7 +49,23 @@ highly versatile.
 
 ## Software
 
-- The code is individually tested for all seperate modules
-- All the different Python snippets when combined would make the project run
+- The code is individually tested for all seperate hardware modules.
+- All the different Python snippets when combined would make the project work with _hardware setup_.
+- Please find the connections of different module wired pins & Raspberry Pie/Arduino inside the code itself!
+- For Automated Emails, enter your Gmail Credentials inside the code.
 
+
+## Hardware
+
+- Raspberry Pi 3B+
+- Arduino Uno
+- Motor Driver(L298D)
+- Micro Servo Motor
+- PVC Pipes + other design-stuff like Wheels
+- I2C LCD Backpack - PCF8574
+- 4x3 Dial pad
+- 12V Battery
+- Neo GPS Module
+- Ultrasonic Sensor HC-SR04
+- Angle Sensor Mpu 9250  
 
